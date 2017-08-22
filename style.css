@@ -1,0 +1,47 @@
+body {
+	padding-top: 50px;
+	font-family: 'Open-sans', sans-serif;
+}
+.jumbotron {
+	background-image: url(images/book.jpeg);
+}
+.container .media {
+	padding: 50px;
+}
+.media-body {
+	padding: 20px;
+}
+.fb-image-profile {
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+.footer {
+    background: #ccc;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+	body {
+		padding-top: 330px;
+	}
+	.navbar-fixed-top {
+		position: absolute;
+	}
+	.fb-profile-text > h1 {
+	    font-weight: 700;
+	    font-size: 16px;
+	}
+	.fb-image-profile {
+	    margin: -45px 10px 0px 25px;
+	    z-index: 9;
+	    width: 20%;
+	}
+	.media-right, .media-body {
+		display: block;
+		overflow: hidden;
+		width: 100%;
+	}
+}
+
+//test git

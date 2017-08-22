@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Biblioteka marzeń</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+      				<a class="navbar-brand" href="#">Czytelnia Polska</a>
+    			</div>
+    			<ul class="nav navbar-nav">
+		      		<li class="active"><a href="#">Strona główna</a></li>
+			      	<li><a href="#">książki</a></li>
+			      	<li><a href="#">Fantastyka</a></li>
+			      	<li><a href="#">Literatura piękna</a></li>
+			    </ul>
+			    <form class="navbar-form navbar-right" role="search">
+        			<div class="form-group">
+          				<input type="text" class="form-control" placeholder="Search">
+        			</div>
+        			<button type="submit" class="btn btn-info">Submit</button>
+      			</form>
+			</div>
+		</nav>
+		<div class="jumbotron text-right">
+  			<div class="container">
+    			<h1>Świat zaklęty w książkach</h1>
+    		    <button class="btn btn-primary btn-lg">Wejdź proszę!</button>
+  			</div>
+		</div>
+		<div class="container">
+    		<div class="fb-profile">
+        		<img align="left" class="fb-image-profile thumbnail" src="images/women.jpg" alt="Profile image example"/>
+        		<div class="fb-profile-text">
+            		<h1>Kasia Kowalska</h1>
+            		<p>Zaczytana w fantastyce.</p>
+    			 </div>
+		 	</div>
+		</div>
+		<section class="container">
+			<h1 class="text-center">Litwo! Ojczyzno Moja <small>Ty jesteś jak zdrowie.</small></h1>
+			<button class="btn btn-primary center-block">Niebieski</button>
+		</section>
+		<section>
+			<h2 class="text-center">Pan Tadeusz</h2>
+			<div class="gallery container">
+				<div class="row text-center">
+					<img src="images/sanset_1.jpeg" alt="" class="img-responsive img-thumbnail col-lg-3 col-md-6 col-sm-12">
+					<img src="images/sanset_2.jpeg" alt="" class="img-responsive img-thumbnail col-lg-3 col-md-6 col-sm-12">
+					<img src="images/sanset_3.jpeg" alt="" class="img-responsive img-thumbnail col-lg-3 col-md-6 col-sm-12">
+					<img src="images/sanset_1.jpeg" alt="" class="img-responsive img-thumbnail col-lg-3 col-md-6 col-sm-12">
+				</div>
+			</div>
+		</section>
+		<div class="container">
+			<h2>Lista lektur</h2>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Autor</th>
+						<th>Tytuł</th>
+						<th>Ocena</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Adam Mickiewicz</td>
+						<td>Pan Tadeusz</td>
+						<td>dobre</td>
+					</tr>
+					<tr>
+						<td>Jan Kochanowski</td>
+						<td>Treny</td>
+						<td>dobre</td>
+					</tr>
+					<tr>
+                        <td>Eliza Orzeszkowa</td>
+						<td>Nad Niemnem</td>
+						<td>bardzo dobra</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="container">
+			<h2>Napisz do nas</h2>
+			<form class="form-horizontal col-md-6 col-sm-12 col-lg-6">
+  				<div class="form-group">
+    				<label for="exampleInputName2">Imię i Nazwisko</label>
+					 <input type="text" class="form-control" id="exampleInputName2" placeholder="Jan Kowalski">
+  				</div>
+				<div class="form-group">
+				    <label for="exampleInputEmail2">Email</label>
+				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jan.kowalski@ok.com">
+				 </div>
+				 <div class="form-group">
+				 	<label for="InputMessage">Wiadomość</label>
+  					<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Wpisz wiadomość"></textarea>
+  				</div>
+				<input class="btn btn-success" type="submit" name="submit">
+			</form>
+
+			<div class="container text-center">
+				<a href="#">Skrzynka odbiorcza <span class="badge">13</span></a>
+				<button class="btn btn-primary text-right" type="button">
+  					Wiadomości <span class="badge">4</span>
+				</button>
+			</div>
+		</div>
+		<div class="container">
+            <div class="media">
+                <div class="media-right">
+                    <a href="#">
+                        <img class="media-object" src="images/book.jpeg" alt="">
+                    </a>
+                </div>
+    		    <div class="media-body">
+    		        <h4 class="media-heading">Czytanie jest modne</h4>
+    		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet odio finibus, luctus ligula eu, faucibus nunc. Nulla suscipit volutpat ex non ullamcorper. Proin vitae lacinia metus. Maecenas euismod quam maximus, ultrices mi eget, molestie magna. Fusce pulvinar ante nunc, non tempus nisi tincidunt ac. Maecenas cursus ligula eget dui ultricies fringilla. </p>
+    		    </div>
+            </div>
+		</div>
+		<footer class="footer text-center">Copyright 2017</footer>
+	</body>
+</html>
