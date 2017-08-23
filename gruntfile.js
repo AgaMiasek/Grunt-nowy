@@ -34,7 +34,8 @@ watch: {
   });
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-watch')
 
   // Default task(s).
-  grunt.registerTask('default', ["sass", "imagemin"]);
+  grunt.registerTask('default', ["sass", "imagemin","watch"]);
 };
