@@ -1,17 +1,21 @@
 {
-  "name": "kodillatest",
+  "name": "g-nowy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "git+https://github.com/AgaMiasek/Grunt-nowy.git"
   },
   "author": "AM",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgaMiasek/Grunt-nowy/issues"
+  },
+  "homepage": "https://github.com/AgaMiasek/Grunt-nowy#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-imagemin": "^2.0.1",
