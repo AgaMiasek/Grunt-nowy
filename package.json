@@ -18,11 +18,8 @@
   "homepage": "https://github.com/AgaMiasek/Grunt-nowy#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-assets-versioning": "^1.0.6",
-    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
-    "postcss-assets": "^4.2.0"
-  }
+     }
 }
