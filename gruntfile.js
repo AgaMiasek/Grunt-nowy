@@ -43,7 +43,7 @@ browserSync: {
 			baseDir: './'
 		  }
 		}
-	  }
+	  },
   });
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
